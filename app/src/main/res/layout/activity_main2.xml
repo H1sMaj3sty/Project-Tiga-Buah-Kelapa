@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@color/grey"
+    >
+
+    <EditText
+        android:id="@+id/inputanUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:textColorHint="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/button"
+        android:hint="MASUKKAN INGFOMU MAS!"
+        />
+
+    <Button
+        android:backgroundTint="@color/merahmudapaling"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KIRIM"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="secondActivity"
+        >
+    </Button>
+
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/textHeader"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:text="Pusat Ingfo 2"
+        android:textStyle="bold"
+        android:background="@color/merahmudapaling"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/textPesan"
+        android:background="@drawable/rounder_corner"
+        android:textColor="@color/white"
+        android:layout_width="300dp"
+        android:layout_below="@+id/textHeader"
+        android:layout_height="wrap_content"
+        android:text="Ingfomu ditunggu, Mas!"
+        android:textStyle="bold"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="35dp"
+        android:textSize="18dp"
+        android:paddingLeft="10dp"
+        android:layout_centerHorizontal="true"
+        >
+    </TextView>
+
+</RelativeLayout>

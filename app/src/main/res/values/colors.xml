@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple">#6750A3</color>
+    <color name="blue">#0000FF</color>
+    <color name="grey">#41436A</color>
+    <color name="merahmudahampirpink">#984063</color>
+    <color name="merahmudapaling">#F66468</color>
+    <color name="beneranmerahmuda">#FE9677</color>
+</resources>
