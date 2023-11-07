@@ -55,4 +55,9 @@ public class MainActivity extends AppCompatActivity {
         String messages = messageBuilder.toString();
         viewMessage.setText(messages);
     }
+
+    public void implicitActivity(View view) {
+        Intent intent = new Intent(this, implisitActivity.class);
+        startActivity(intent);
+    }
 }

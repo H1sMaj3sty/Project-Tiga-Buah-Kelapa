@@ -34,6 +34,21 @@
         >
     </Button>
 
+
+    <Button
+        android:id="@+id/buttonImplisit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="65dp"
+        android:backgroundTint="@color/merahmudapaling"
+        android:onClick="implicitActivity"
+        android:text="Implicit"
+        >
+    </Button>
+
     <TextView
         android:gravity="center"
         android:id="@+id/textJudul"

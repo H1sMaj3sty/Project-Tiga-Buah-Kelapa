@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/grey"
+    tools:context=".implisitActivity">
+
+    <EditText
+        android:id="@+id/editUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="https:google.com"
+        android:textColor="@android:color/black"
+        android:background="@drawable/rounded_edittext"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Website"
+        android:onClick="openWeb"
+        android:backgroundTint="@color/merahmudapaling"
+        />
+
+    <EditText
+        android:layout_marginTop="12dp"
+        android:id="@+id/editLokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Surakarta"
+        android:textColor="@android:color/black"
+        android:background="@drawable/rounded_edittext"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Lokasi"
+        android:onClick="openLoc"
+        android:backgroundTint="@color/merahmudapaling"
+        />
+
+    <EditText
+        android:layout_marginTop="12dp"
+        android:id="@+id/editShareText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Status"
+        android:textColor="@android:color/black"
+        android:background="@drawable/rounded_edittext"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share Text"
+        android:onClick="shareText"
+        android:backgroundTint="@color/merahmudapaling"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Main"
+        android:onClick="openMain"
+        android:backgroundTint="@color/merahmudapaling"
+        />
+
+</LinearLayout>
